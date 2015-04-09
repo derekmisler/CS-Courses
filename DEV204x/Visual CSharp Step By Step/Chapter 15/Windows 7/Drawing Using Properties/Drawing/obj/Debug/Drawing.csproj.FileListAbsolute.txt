@@ -1,0 +1,26 @@
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\bin\Debug\Drawing.exe.config
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\bin\Debug\Drawing.exe
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\bin\Debug\Drawing.pdb
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing.csprojResolveAssemblyReference.cache
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\DrawingPad.baml
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\DrawingPad.g.cs
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\App.g.cs
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing_MarkupCompile.cache
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing.g.resources
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing.Properties.Resources.resources
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing.csproj.GenerateResource.Cache
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing.exe
+D:\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing\Drawing\obj\Debug\Drawing.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\bin\Debug\Drawing.exe.config
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\bin\Debug\Drawing.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\bin\Debug\Drawing.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing.csprojResolveAssemblyReference.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\DrawingPad.baml
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\DrawingPad.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\App.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing_MarkupCompile.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing.g.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing.Properties.Resources.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 15\Windows 7\Drawing Using Properties\Drawing\obj\Debug\Drawing.csproj.GenerateResource.Cache

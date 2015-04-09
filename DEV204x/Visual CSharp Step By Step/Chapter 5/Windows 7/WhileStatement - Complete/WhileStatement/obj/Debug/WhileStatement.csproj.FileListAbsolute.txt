@@ -1,0 +1,38 @@
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\bin\Debug\WhileStatement.exe.config
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\bin\Debug\WhileStatement.exe
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\bin\Debug\WhileStatement.pdb
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\MainWindow.baml
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\MainWindow.g.cs
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\App.g.cs
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\WhileStatement_MarkupCompile.cache
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\WhileStatement.g.resources
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\WhileStatement.Properties.Resources.resources
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\WhileStatement.csproj.GenerateResource.Cache
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\WhileStatement.exe
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement\WhileStatement\obj\Debug\WhileStatement.pdb
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\bin\Debug\WhileStatement.exe.config
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.exe
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.pdb
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\bin\Debug\WhileStatement.exe
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\bin\Debug\WhileStatement.pdb
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.csprojResolveAssemblyReference.cache
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\MainWindow.baml
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\MainWindow.g.cs
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\App.g.cs
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement_MarkupCompile.cache
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.g.resources
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.Properties.Resources.resources
+D:\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.csproj.GenerateResource.Cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\bin\Debug\WhileStatement.exe.config
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\bin\Debug\WhileStatement.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\bin\Debug\WhileStatement.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.csprojResolveAssemblyReference.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\MainWindow.baml
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\MainWindow.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\App.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement_MarkupCompile.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.g.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.Properties.Resources.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 5\Windows 7\WhileStatement - Complete\WhileStatement\obj\Debug\WhileStatement.csproj.GenerateResource.Cache

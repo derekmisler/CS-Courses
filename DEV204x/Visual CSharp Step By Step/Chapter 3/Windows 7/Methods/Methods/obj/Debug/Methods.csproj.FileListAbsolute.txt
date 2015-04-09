@@ -1,0 +1,26 @@
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\bin\Debug\Methods.exe.config
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\bin\Debug\Methods.exe
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\bin\Debug\Methods.pdb
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\MainWindow.baml
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\MainWindow.g.cs
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\App.g.cs
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods_MarkupCompile.cache
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.g.resources
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.Properties.Resources.resources
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.csproj.GenerateResource.Cache
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.exe
+D:\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\bin\Debug\Methods.exe.config
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\bin\Debug\Methods.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\bin\Debug\Methods.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\MainWindow.baml
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\MainWindow.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\App.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods_MarkupCompile.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.g.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.Properties.Resources.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Windows 7\Methods\Methods\obj\Debug\Methods.csproj.GenerateResource.Cache

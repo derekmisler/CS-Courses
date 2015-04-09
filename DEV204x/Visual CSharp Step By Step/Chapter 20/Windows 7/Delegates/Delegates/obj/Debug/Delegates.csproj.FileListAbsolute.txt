@@ -1,0 +1,42 @@
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\Delegates.exe.config
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\MainWindow.g.cs
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\App.g.cs
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates_MarkupCompile.cache
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates_MarkupCompile.lref
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\Delegates.exe
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\Delegates.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\AuditService.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DataTypes.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DeliveryService.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\AuditService.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DataTypes.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DeliveryService.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\MainWindow.baml
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.g.resources
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.Properties.Resources.resources
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.csproj.GenerateResource.Cache
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.exe
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\Delegates.exe.config
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\Delegates.exe
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\Delegates.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\AuditService.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DataTypes.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DeliveryService.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\AuditService.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DataTypes.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\bin\Debug\DeliveryService.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\MainWindow.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\App.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates_MarkupCompile.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates_MarkupCompile.lref
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\MainWindow.baml
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.g.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.Properties.Resources.resources
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\Delegates\obj\Debug\Delegates.csproj.GenerateResource.Cache

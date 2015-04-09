@@ -1,0 +1,12 @@
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\bin\Debug\SwitchStatement.exe.config
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\bin\Debug\SwitchStatement.exe
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\bin\Debug\SwitchStatement.pdb
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\MainWindow.baml
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\MainWindow.g.cs
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\App.g.cs
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\SwitchStatement_MarkupCompile.cache
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\SwitchStatement.g.resources
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\SwitchStatement.Properties.Resources.resources
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\SwitchStatement.csproj.GenerateResource.Cache
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\SwitchStatement.exe
+D:\Visual CSharp Step By Step\Chapter 4\Windows 7\SwitchStatement\SwitchStatement\obj\Debug\SwitchStatement.pdb

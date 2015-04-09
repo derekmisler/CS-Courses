@@ -1,0 +1,8 @@
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\DataTypes\bin\Debug\DataTypes.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\DataTypes\bin\Debug\DataTypes.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\DataTypes\obj\Debug\DataTypes.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates\DataTypes\obj\Debug\DataTypes.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\DataTypes\bin\Debug\DataTypes.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\DataTypes\bin\Debug\DataTypes.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\DataTypes\obj\Debug\DataTypes.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\DataTypes\obj\Debug\DataTypes.pdb

@@ -1,0 +1,14 @@
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\CheckoutService.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\CheckoutService.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\DataTypes.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\DataTypes.pdb
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\obj\Debug\CheckoutService.csprojResolveAssemblyReference.cache
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\obj\Debug\CheckoutService.dll
+D:\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\obj\Debug\CheckoutService.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\CheckoutService.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\CheckoutService.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\DataTypes.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\bin\Debug\DataTypes.pdb
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\obj\Debug\CheckoutService.csprojResolveAssemblyReference.cache
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\obj\Debug\CheckoutService.dll
+D:\C_Sharp_SBS\Microsoft Press\Visual CSharp Step By Step\Chapter 20\Windows 7\Delegates - Complete\CheckoutService\obj\Debug\CheckoutService.pdb
