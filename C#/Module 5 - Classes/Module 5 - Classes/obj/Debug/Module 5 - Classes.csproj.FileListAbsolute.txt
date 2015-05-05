@@ -1,0 +1,6 @@
+c:\users\derek\documents\visual studio 2013\Projects\Module 5 - Classes\Module 5 - Classes\bin\Debug\Module 5 - Classes.exe.config
+c:\users\derek\documents\visual studio 2013\Projects\Module 5 - Classes\Module 5 - Classes\bin\Debug\Module 5 - Classes.exe
+c:\users\derek\documents\visual studio 2013\Projects\Module 5 - Classes\Module 5 - Classes\bin\Debug\Module 5 - Classes.pdb
+c:\users\derek\documents\visual studio 2013\Projects\Module 5 - Classes\Module 5 - Classes\obj\Debug\Module 5 - Classes.csprojResolveAssemblyReference.cache
+c:\users\derek\documents\visual studio 2013\Projects\Module 5 - Classes\Module 5 - Classes\obj\Debug\Module 5 - Classes.exe
+c:\users\derek\documents\visual studio 2013\Projects\Module 5 - Classes\Module 5 - Classes\obj\Debug\Module 5 - Classes.pdb

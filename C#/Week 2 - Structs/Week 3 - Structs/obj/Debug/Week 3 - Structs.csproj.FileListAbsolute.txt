@@ -1,0 +1,6 @@
+c:\users\derek\documents\visual studio 2013\Projects\Week 3 - Structs\Week 3 - Structs\bin\Debug\Week 3 - Structs.exe.config
+c:\users\derek\documents\visual studio 2013\Projects\Week 3 - Structs\Week 3 - Structs\obj\Debug\Week 3 - Structs.csprojResolveAssemblyReference.cache
+c:\users\derek\documents\visual studio 2013\Projects\Week 3 - Structs\Week 3 - Structs\bin\Debug\Week 3 - Structs.exe
+c:\users\derek\documents\visual studio 2013\Projects\Week 3 - Structs\Week 3 - Structs\bin\Debug\Week 3 - Structs.pdb
+c:\users\derek\documents\visual studio 2013\Projects\Week 3 - Structs\Week 3 - Structs\obj\Debug\Week 3 - Structs.exe
+c:\users\derek\documents\visual studio 2013\Projects\Week 3 - Structs\Week 3 - Structs\obj\Debug\Week 3 - Structs.pdb
