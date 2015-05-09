@@ -1,0 +1,6 @@
+c:\users\derek\documents\visual studio 2013\Projects\Module 7 - Collections\Module 7 - Collections\bin\Debug\Module 7 - Collections.exe.config
+C:\Users\Derek\Documents\Visual Studio 2013\Projects\Module 7 - Collections\Module 7 - Collections\bin\Debug\Module 7 - Collections.exe
+C:\Users\Derek\Documents\Visual Studio 2013\Projects\Module 7 - Collections\Module 7 - Collections\bin\Debug\Module 7 - Collections.pdb
+C:\Users\Derek\Documents\Visual Studio 2013\Projects\Module 7 - Collections\Module 7 - Collections\obj\Debug\Module 7 - Collections.csprojResolveAssemblyReference.cache
+C:\Users\Derek\Documents\Visual Studio 2013\Projects\Module 7 - Collections\Module 7 - Collections\obj\Debug\Module 7 - Collections.exe
+C:\Users\Derek\Documents\Visual Studio 2013\Projects\Module 7 - Collections\Module 7 - Collections\obj\Debug\Module 7 - Collections.pdb
