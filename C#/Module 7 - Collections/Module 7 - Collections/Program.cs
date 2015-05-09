@@ -38,16 +38,13 @@ namespace Module_7___Collections
         {
             ArrayList students = new ArrayList();
             // The student objects
-            Student student0 = new Student("Michael", "Winston", "Manhattan", "NY", 10, 100);
-            Student student1 = new Student("Jalal", "Abramsson", "Queens", "NY", 40, 100);
-            Student student2 = new Student("Arnleik", "Gjersvik", "Brooklyn", "NY", 70, 100);
+            Student student0 = new Student("Michael", "Winston", "Manhattan", "NY");
+            Student student1 = new Student("Jalal", "Abramsson", "Queens", "NY");
+            Student student2 = new Student("Arnleik", "Gjersvik", "Brooklyn", "NY");
             // Add them to the collection
             students.Add(student0);
             students.Add(student1);
             students.Add(student2);
-
-            // Grades
-            Stack studentGrades = new Stack();
 
             Course.ListStudents(students);
         }
@@ -75,30 +72,16 @@ namespace Module_7___Collections
         // member variables
         public static int numOfStudents = 0;
         public string classPassed { get; set; }
-        public int minGrade;
-        public int maxGrade;
-        public static int testScore;
-        public Stack studentGrades;
+        public Stack Grades { get; set; }
 
-        // Test method
-        public static void TakeTest(int minGrade, int maxGrade)
-        {
-            // Random number generator for testScore
-            Random random = new Random();
-            Student.testScore = random.Next(minGrade, maxGrade);
-            return;
-        }
         // Build the student profile
-        public Student(string _firstName, string _lastName, string _city, string _state, int _minGrade, int _maxGrade)
+        public Student(string _firstName, string _lastName, string _city, string _state)
         {
             numOfStudents++;
             this.firstName = _firstName;
             this.lastName = _lastName;
             this.city = _city;
             this.state = _state;
-            this.minGrade = _minGrade;
-            this.maxGrade = _maxGrade;
-            studentGrades = new Stack();
         }
     }
     class Teacher : Person
@@ -106,7 +89,6 @@ namespace Module_7___Collections
         // member variables
         public int empNumber { get; set; }
         public string department { get; set; }
-        public static string testGrade;
         // Teacher profile
         public Teacher(string _firstName, string _lastName, string _city, string _state, string _department, int _empNumber)
         {
@@ -116,20 +98,6 @@ namespace Module_7___Collections
             this.state = _state;
             this.department = _department;
             this.empNumber = _empNumber;
-        }
-        // public method for grading the test
-        public static void GradeTest(int testScore)
-        {
-            if (testScore < 60)
-                testGrade = "Sorry, you've failed.";
-            else if (testScore > 60 & testScore < 70)
-                testGrade = "You've recieved a grade of D.";
-            else if (testScore > 70 & testScore < 80)
-                testGrade = "You've recieved a grade of C.";
-            else if (testScore > 80 & testScore < 90)
-                testGrade = "You've recieved a grade of B.";
-            else
-                testGrade = "Congratulations on your A!";
         }
     }
     class UProgram
@@ -143,6 +111,7 @@ namespace Module_7___Collections
     {
         // member variables
         public Teacher[] teacherArray { get; set; }
+        private static Random r = new Random();
         public Course(Teacher[] _teacherArray)
         {
             this.teacherArray = _teacherArray;
@@ -151,14 +120,23 @@ namespace Module_7___Collections
         {
             foreach (Student student in students)
             {
-                // Retrieve them from the collection
+                // Retrieve them from the collection and cast them back to Student objects
                 Student _student = (Student)student;
+                // Grades
+                Stack Grades = new Stack();
+                // Random number generator
+                Grades.Push(r.Next(50, 100));
+                Grades.Push(r.Next(50, 100));
+                Grades.Push(r.Next(50, 100));
+                Grades.Push(r.Next(50, 100));
+                Grades.Push(r.Next(50, 100));
 
-                Student.TakeTest(student.minGrade, student.maxGrade);
-                Teacher.GradeTest(Student.testScore);
-                student.classPassed = Teacher.testGrade;
-
-                Console.WriteLine("{0} {1} = {2}\n{3}", student.firstName, student.lastName, Student.testScore, student.classPassed);
+                Console.WriteLine("{0} {1}", student.firstName, student.lastName);
+                Console.Write("Grades: ");
+                foreach (int _grades in Grades)
+                {
+                    Console.Write("{0} ", _grades);
+                }
                 Console.WriteLine("\n-----------------\n");
             }
         }
