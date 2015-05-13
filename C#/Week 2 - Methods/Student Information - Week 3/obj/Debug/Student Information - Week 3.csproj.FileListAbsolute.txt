@@ -1,6 +1,0 @@
-C:\Users\Derek\Documents\Visual Studio 2013\Projects\Student Information - Week 3\Student Information - Week 3\bin\Debug\Student Information - Week 3.exe.config
-C:\Users\Derek\Documents\Visual Studio 2013\Projects\Student Information - Week 3\Student Information - Week 3\bin\Debug\Student Information - Week 3.exe
-C:\Users\Derek\Documents\Visual Studio 2013\Projects\Student Information - Week 3\Student Information - Week 3\bin\Debug\Student Information - Week 3.pdb
-C:\Users\Derek\Documents\Visual Studio 2013\Projects\Student Information - Week 3\Student Information - Week 3\obj\Debug\Student Information - Week 3.exe
-C:\Users\Derek\Documents\Visual Studio 2013\Projects\Student Information - Week 3\Student Information - Week 3\obj\Debug\Student Information - Week 3.pdb
-C:\Users\Derek\Documents\Visual Studio 2013\Projects\Student Information - Week 3\Student Information - Week 3\obj\Debug\Student Information - Week 3.csprojResolveAssemblyReference.cache

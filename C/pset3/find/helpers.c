@@ -17,17 +17,19 @@
 bool search(int value, int values[], int n)
 {
     // TODO: implement a searching algorithm
-    for (int i = 0; i < values[n]; i++)
+    if (n < 0)
+        return false;
+    else
     {
-        if (value == values[i])
+        for (int i = 0; i <= n; i++)
         {
-            return true;
-        }
-        else
-        {
-            return false;
+            if (value == values[i])
+            {
+                return true;
+            }
         }
     }
+    return false;
 }
 
 /**
