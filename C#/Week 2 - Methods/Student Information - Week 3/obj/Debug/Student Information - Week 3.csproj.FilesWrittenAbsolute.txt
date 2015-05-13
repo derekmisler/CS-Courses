@@ -1,6 +1,0 @@
-/Users/derekrulestheworld/Google Drive/DEV204 backup/Week 3 - Methods/Student Information - Week 3/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/derekrulestheworld/Google Drive/DEV204 backup/Week 3 - Methods/Student Information - Week 3/bin/Debug/Student Information - Week 3.exe.config
-/Users/derekrulestheworld/Google Drive/DEV204 backup/Week 3 - Methods/Student Information - Week 3/bin/Debug/Student Information - Week 3.exe.mdb
-/Users/derekrulestheworld/Google Drive/DEV204 backup/Week 3 - Methods/Student Information - Week 3/bin/Debug/Student Information - Week 3.exe
-/Users/derekrulestheworld/Google Drive/DEV204 backup/Week 3 - Methods/Student Information - Week 3/obj/Debug/Student Information - Week 3.exe
-/Users/derekrulestheworld/Google Drive/DEV204 backup/Week 3 - Methods/Student Information - Week 3/obj/Debug/Student Information - Week 3.exe.mdb
