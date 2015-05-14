@@ -16,7 +16,6 @@
  */
 bool search(int value, int values[], int n)
 {
-    // TODO: implement a searching algorithm
     if (n < 0)
         return false;
     else
@@ -37,6 +36,25 @@ bool search(int value, int values[], int n)
  */
 void sort(int values[], int n)
 {
-    // TODO: implement an O(n^2) sorting algorithm
+    // exit the loop if "swapped" ever becomes false
+    bool swapped = true;
+    
+    // this loop sorts. if nothing gets swapped, change it to 'false' and move to the next one
+    while (swapped == true)
+    {
+        swapped = false;
+        int hold;
+        for (int i = 0; i < (n-1); i++)
+        {
+            if (values[i] > values[i+1])
+            {
+                hold = values[i+1];
+                values[i+1] = values[i];
+                values[i] = hold;
+                swapped = true;
+            }
+
+        }
+    }
     return;
 }
