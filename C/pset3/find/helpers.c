@@ -8,6 +8,8 @@
  */
        
 #include <cs50.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #include "helpers.h"
 
@@ -52,6 +54,7 @@ void sort(int values[], int n)
                 values[i+1] = values[i];
                 values[i] = hold;
                 swapped = true;
+
             }
 
         }

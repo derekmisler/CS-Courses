@@ -52,7 +52,7 @@ int main(int argc, string argv[])
         // sort the haystack
         sort(haystack, size);
 
-        printf("\nhaystack[%d] = %i", size, haystack[size]);     
+        printf("\nhaystack[%d] = %i", size, haystack[size]);
     }
     printf("\n");
 
