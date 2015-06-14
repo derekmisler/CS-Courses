@@ -89,7 +89,37 @@ int main(void)
  */
 void initBricks(GWindow window)
 {
-    // TODO
+    int brick_y = 50;
+    int row_space = 20;
+    
+    for (int i = 0; i < ROWS; i++)
+    {
+        int brick_x = 2;
+        for (int j = 0; j < COLS; j++)
+        {
+            GRect brick = newGRect(brick_x + 5, brick_y, 35, 10);
+            if (i == 0)
+                setColor(brick, "b71234");
+            
+            if (i == 1)
+                setColor(brick, "165788");
+            
+            if (i == 2)
+                setColor(brick, "90986b");
+            
+            if (i == 3)
+                setColor(brick, "eeaf30");
+            
+            if (i == 4)
+                setColor(brick, "766a65");
+            
+            setFilled(brick, true);
+            add(window, brick);
+            brick_x = brick_x + 39;
+        }
+        
+        brick_y = brick_y + 15;
+    }
 }
 
 /**
