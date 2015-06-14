@@ -25,7 +25,7 @@
 int main(int argc, string argv[])
 {
     // TODO: if the user did not supply an argument, print the usage of the program
-    if (argc != 2 && argc != 3)
+    if (argc < 2 || argc > 3)
     {
         printf("Usage: generate n [s]\n");
         return 1;

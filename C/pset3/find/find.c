@@ -39,23 +39,27 @@ int main(int argc, string argv[])
     for (size = 0; size < MAX; size++)
     {
         // wait for hay until EOF
+        printf("\nhaystack[%d] = ", size);
         int straw = GetInt();
-
         if (straw == INT_MAX)
         {
             break;
         }
-
+     
         // add hay to stack
         haystack[size] = straw;
-        
-        // sort the haystack
-        sort(haystack, size);
-
-        printf("\nhaystack[%d] = %i", size, haystack[size]);
     }
     printf("\n");
 
+    // sort the haystack
+    sort(haystack, size);
+    
+    // print the sorted array (for testing only)
+    // for (int i = 1; i < size; i++)
+    // {
+    //     printf("\nhaystack[%d] = %i", i, haystack[i]);
+    // }
+    
     // try to find needle in haystack
     if (search(needle, haystack, size))
     {
@@ -68,3 +72,4 @@ int main(int argc, string argv[])
         return 1;
     }
 }
+

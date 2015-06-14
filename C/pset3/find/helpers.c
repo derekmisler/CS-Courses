@@ -18,16 +18,42 @@
  */
 bool search(int value, int values[], int n)
 {
+/*    if (n < 0)*/
+/*        return false;*/
+/*    else*/
+/*    {*/
+/*        for (int i = 0; i <= n; i++)*/
+/*        {*/
+/*            if (value == values[i])*/
+/*            {*/
+/*                return true;*/
+/*            }*/
+/*        }*/
+/*    }*/
+    
     if (n < 0)
         return false;
     else
     {
-        for (int i = 0; i <= n; i++)
+        int min = 0;
+        int max = n-1;
+        
+        while (max >= min)
         {
-            if (value == values[i])
+            int middle = (min + max)/2;
+            
+            if (max == min)
             {
-                return true;
+                if (value == values[n-1])
+                    return true;
             }
+            
+            if (value == values[middle])
+                return true;
+            else if (value < values[middle])
+                max = middle - 1;
+            else
+                min = middle + 1;
         }
     }
     return false;
@@ -41,12 +67,14 @@ void sort(int values[], int n)
     // exit the loop if "swapped" ever becomes false
     bool swapped = true;
     
-    // this loop sorts. if nothing gets swapped, change it to 'false' and move to the next one
+    // this loop does the sorting.
+    // change 'swapped' to false, unless the 'if' is true,
+    // if it's true, swap it and set 'swapped' to true
     while (swapped == true)
     {
         swapped = false;
         int hold;
-        for (int i = 0; i < (n-1); i++)
+        for (int i = 0; i < n; i++)
         {
             if (values[i] > values[i+1])
             {
@@ -54,9 +82,7 @@ void sort(int values[], int n)
                 values[i+1] = values[i];
                 values[i] = hold;
                 swapped = true;
-
             }
-
         }
     }
     return;
