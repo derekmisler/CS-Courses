@@ -28,10 +28,15 @@
 #define COLS 10
 
 // radius of ball in pixels
-#define RADIUS 10
+#define RADIUS 20
 
 // lives
 #define LIVES 3
+
+// bricks and paddles
+#define BRICKMARGIN 4
+#define BRICKHEIGHT 10
+#define BRICKLENGTH ((WIDTH / COLS) - BRICKMARGIN)
 
 // prototypes
 void initBricks(GWindow window);
@@ -89,36 +94,35 @@ int main(void)
  */
 void initBricks(GWindow window)
 {
-    int brick_y = 50;
-    int row_space = 20;
-    
+    int brickY = BRICKLENGTH;
+
     for (int i = 0; i < ROWS; i++)
     {
-        int brick_x = 2;
+        int brickX = BRICKMARGIN;
         for (int j = 0; j < COLS; j++)
         {
-            GRect brick = newGRect(brick_x + 5, brick_y, 35, 10);
+            GRect brick = newGRect(brickX - (BRICKMARGIN / 2), brickY, BRICKLENGTH, BRICKHEIGHT);
+            
             if (i == 0)
-                setColor(brick, "b71234");
+                setColor(brick, "ffff9d");
             
             if (i == 1)
-                setColor(brick, "165788");
+                setColor(brick, "beeb9f");
             
             if (i == 2)
-                setColor(brick, "90986b");
+                setColor(brick, "79bd8f");
             
             if (i == 3)
-                setColor(brick, "eeaf30");
+                setColor(brick, "00a388");
             
             if (i == 4)
-                setColor(brick, "766a65");
-            
+                setColor(brick, "ff6138");
+
             setFilled(brick, true);
             add(window, brick);
-            brick_x = brick_x + 39;
+            brickX+=(BRICKLENGTH + BRICKMARGIN);
         }
-        
-        brick_y = brick_y + 15;
+        brickY+=(BRICKHEIGHT + BRICKMARGIN);
     }
 }
 
@@ -127,8 +131,11 @@ void initBricks(GWindow window)
  */
 GOval initBall(GWindow window)
 {
-    // TODO
-    return NULL;
+    GOval ball = newGOval((WIDTH / 2) - (RADIUS / 2), HEIGHT - (BRICKHEIGHT * 2 + RADIUS), RADIUS, RADIUS);
+    setColor(ball, "83d1e8");
+    setFilled(ball, true);
+    add(window, ball);
+    return ball;
 }
 
 /**
@@ -136,8 +143,11 @@ GOval initBall(GWindow window)
  */
 GRect initPaddle(GWindow window)
 {
-    // TODO
-    return NULL;
+    GRect paddle = newGRect(WIDTH / 2 - BRICKLENGTH, HEIGHT - (BRICKHEIGHT * 2), BRICKLENGTH * 2, BRICKHEIGHT);
+    setColor(paddle, "646464");
+    setFilled(paddle, true);
+    add(window, paddle);
+    return paddle;
 }
 
 /**
