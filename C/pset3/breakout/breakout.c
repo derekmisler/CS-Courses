@@ -27,16 +27,22 @@
 // number of columns of bricks
 #define COLS 10
 
-// radius of ball in pixels
-#define RADIUS 20
-
 // lives
 #define LIVES 3
 
-// bricks and paddles
+// bricks
 #define BRICKMARGIN 4
 #define BRICKHEIGHT 10
 #define BRICKLENGTH ((WIDTH / COLS) - BRICKMARGIN)
+
+// paddle
+#define PADDLE_Y HEIGHT - (BRICKHEIGHT * 2)
+#define PADDLE_X WIDTH / 2 - BRICKLENGTH
+
+// ball
+#define RADIUS 20
+#define BALL_Y HEIGHT - (BRICKHEIGHT * 2 + RADIUS)
+#define BALL_X (WIDTH / 2) - (RADIUS / 2)
 
 // prototypes
 void initBricks(GWindow window);
@@ -74,11 +80,30 @@ int main(void)
 
     // number of points initially
     int points = 0;
+    
+    // speed of ball
+    double velocityX = drand48() + 1;
+    double velocityY = 2.0;
 
     // keep playing until game over
     while (lives > 0 && bricks > 0)
     {
-        // TODO
+        //updateScoreboard(window, label, points);
+
+        // listen for mouse event
+        GEvent event = getNextEvent(MOUSE_EVENT);
+        // if we heard any event
+        if (event != NULL)
+        {
+            // if the event was movement
+            if (getEventType(event) == MOUSE_MOVED)
+            {
+                // ensure paddle follows the cursor along the x-axis
+                double x = getX(event) - getWidth(paddle) / 2;
+                setLocation(paddle, x, PADDLE_Y);
+            }
+        }
+
     }
 
     // wait for click before exiting
@@ -98,10 +123,10 @@ void initBricks(GWindow window)
 
     for (int i = 0; i < ROWS; i++)
     {
-        int brickX = BRICKMARGIN;
+        int brickX = BRICKMARGIN - (BRICKMARGIN / 2);
         for (int j = 0; j < COLS; j++)
         {
-            GRect brick = newGRect(brickX - (BRICKMARGIN / 2), brickY, BRICKLENGTH, BRICKHEIGHT);
+            GRect brick = newGRect(brickX, brickY, BRICKLENGTH, BRICKHEIGHT);
             
             if (i == 0)
                 setColor(brick, "ffff9d");
@@ -131,7 +156,7 @@ void initBricks(GWindow window)
  */
 GOval initBall(GWindow window)
 {
-    GOval ball = newGOval((WIDTH / 2) - (RADIUS / 2), HEIGHT - (BRICKHEIGHT * 2 + RADIUS), RADIUS, RADIUS);
+    GOval ball = newGOval(BALL_X, BALL_Y, RADIUS, RADIUS);
     setColor(ball, "83d1e8");
     setFilled(ball, true);
     add(window, ball);
@@ -143,7 +168,7 @@ GOval initBall(GWindow window)
  */
 GRect initPaddle(GWindow window)
 {
-    GRect paddle = newGRect(WIDTH / 2 - BRICKLENGTH, HEIGHT - (BRICKHEIGHT * 2), BRICKLENGTH * 2, BRICKHEIGHT);
+    GRect paddle = newGRect(PADDLE_X, PADDLE_Y, BRICKLENGTH * 2, BRICKHEIGHT);
     setColor(paddle, "646464");
     setFilled(paddle, true);
     add(window, paddle);
