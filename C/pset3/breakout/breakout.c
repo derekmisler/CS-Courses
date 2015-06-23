@@ -83,12 +83,12 @@ int main(void)
     
     // speed of ball
     double velocityX = drand48() + 1;
-    double velocityY = 2.0;
+    double velocityY = -2.0;
 
     // keep playing until game over
     while (lives > 0 && bricks > 0)
     {
-        //updateScoreboard(window, label, points);
+        updateScoreboard(window, label, points);
 
         // listen for mouse event
         GEvent event = getNextEvent(MOUSE_EVENT);
@@ -103,7 +103,35 @@ int main(void)
                 setLocation(paddle, x, PADDLE_Y);
             }
         }
+        
+        // move ball
+        move(ball, velocityX, velocityY);
 
+        // bounce off right edge of window
+        if (getX(ball) + RADIUS >= WIDTH)
+        {
+            velocityX = -velocityX;
+        }
+        // bounce off left edge of window
+        else if (getX(ball) <= 0)
+        {
+            velocityX = -velocityX;
+        }     
+        // bounce off the top
+        if (getY(ball) <= 0)
+        {
+            velocityY = -velocityY;
+        }
+        // if the paddle misses the ball, remove a life and reset
+        if (getY(ball) >= HEIGHT)
+        {
+            lives--;
+            setLocation(paddle, PADDLE_X, PADDLE_Y);
+            setLocation(ball, BALL_X, BALL_Y);
+            velocityY = -velocityY;
+            waitForClick();
+        }
+        pause(10);
     }
 
     // wait for click before exiting
@@ -180,8 +208,12 @@ GRect initPaddle(GWindow window)
  */
 GLabel initScoreboard(GWindow window)
 {
-    // TODO
-    return NULL;
+    GLabel label = newGLabel("Start");
+    setFont(label, "SansSerif-48");
+    setColor(label, "83d1e8");
+    setLocation(label, (WIDTH - getWidth(label)) / 2, HEIGHT / 2);
+    add(window, label);
+    return label;
 }
 
 /**
@@ -195,9 +227,7 @@ void updateScoreboard(GWindow window, GLabel label, int points)
     setLabel(label, s);
 
     // center label in window
-    double x = (getWidth(window) - getWidth(label)) / 2;
-    double y = (getHeight(window) - getHeight(label)) / 2;
-    setLocation(label, x, y);
+    setLocation(label, (WIDTH - getWidth(label)) / 2, HEIGHT / 2);
 }
 
 /**

@@ -33,16 +33,16 @@ int main(void)
     while (true)
     {
         // move circle along x-axis
-        move(circle, velocity, 0);
+        move(circle, velocity, velocity);
 
         // bounce off right edge of window
-        if (getX(circle) + getWidth(circle) >= getWidth(window))
+        if (getY(circle) + getHeight(circle) >= getHeight(window))
         {
             velocity = -velocity;
         }
 
         // bounce off left edge of window
-        else if (getX(circle) <= 0)
+        else if (getY(circle) <= 0 || getX(circle) <= 0)
         {
             velocity = -velocity;
         }
