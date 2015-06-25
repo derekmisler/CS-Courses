@@ -18,25 +18,11 @@
  */
 bool search(int value, int values[], int n)
 {
-/**
-*    if (n < 0)
-*        return false;
-*    else
-*    {
-*        for (int i = 0; i <= n; i++)
-*        {
-*            if (value == values[i])
-*            {
-*                return true;
-*            }
-*        }
-*    }
-*/
-    
     if (n <= 0)
         return false;
     else
     {
+        sort(values, n);
         int min = 0;
         int max = n-1;
         
