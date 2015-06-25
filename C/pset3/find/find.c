@@ -55,9 +55,9 @@ int main(int argc, string argv[])
     sort(haystack, size);
     
     // print the sorted array (for testing only)
-    // for (int i = 1; i < size; i++)
+    // for (int i = 0; i < size; i++)
     // {
-    //     printf("\nhaystack[%d] = %i", i, haystack[i]);
+    //     printf("\nhaystack[%d] = %i", i, haystack[i+1]);
     // }
     
     // try to find needle in haystack
