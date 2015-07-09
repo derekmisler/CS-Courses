@@ -18,8 +18,8 @@
 #include <spl/gwindow.h>
 
 // height and width of game's window in pixels
-#define HEIGHT 600
-#define WIDTH 400
+#define HEIGHT 800
+#define WIDTH 600
 
 // number of rows of bricks
 #define ROWS 5
