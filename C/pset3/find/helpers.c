@@ -30,15 +30,9 @@ bool search(int value, int values[], int n)
         {
             int middle = (min + max)/2;
             
-            if (max == min)
-            {
-                if (value == values[n-1])
-                    return true;
-            }
-            
-            if (value == values[middle])
+            if (values[middle] == value)
                 return true;
-            else if (value < values[middle])
+            else if (values[middle] > value)
                 max = middle - 1;
             else
                 min = middle + 1;
@@ -53,25 +47,24 @@ bool search(int value, int values[], int n)
 void sort(int values[], int n)
 {
     // exit the loop if "swapped" ever becomes false
-    bool swapped = true;
+    bool swapped;
     
     // this loop does the sorting.
     // change 'swapped' to false, unless the 'if' is true,
     // if it's true, swap it and set 'swapped' to true
-    while (swapped == true)
+    do
     {
-        swapped = false;
-        int hold;
-        for (int i = 0; i < n; i++)
-        {
-            if (values[i] > values[i+1])
-            {
-                hold = values[i+1];
-                values[i+1] = values[i];
-                values[i] = hold;
-                swapped = true;
-            }
-        }
-    }
+      swapped = false;
+      for (int i = 0; i < n-1; i++)
+      {
+          if (values[i] > values[i+1])
+          {
+              int hold = values[i];
+              values[i] = values[i+1];
+              values[i+1] = hold;
+              swapped = true;
+          }
+      }
+    } while (swapped);
     return;
 }
