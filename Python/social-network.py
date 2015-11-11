@@ -37,13 +37,13 @@ def short_path(G, node1, node2):
     """ Return the shortest path from node1 to node2"""
     dist_from_start = {}
     stackoverflow = [node1]
-    dist_from_start[node1] = 0
+    dist_from_start[node1] = [node1]
     while len(stackoverflow) > 0:
         current = stackoverflow[0]
         del stackoverflow[0]
         for neighbor in G[current].keys():
             if neighbor not in dist_from_start:
-                dist_from_start[neighbor] = dist_from_start[current] + 1
+                dist_from_start[neighbor] = dist_from_start[current] + [neighbor]
                 if neighbor == node2: return dist_from_start[node2]
                 stackoverflow.append(neighbor)
     return False
