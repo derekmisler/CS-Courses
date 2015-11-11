@@ -3,13 +3,6 @@
 GRAPH = {}
 
 def make_link(Graph, node1, node2):
-    """
-    A Graph will be a dictionary containing nodes.
-    Theses nodes will be a dictionary of neighbor nodes.
-    The node's dict. key will be the neighbor node and
-    it's value will be 1.
-    Return the updated Graph.
-    """
     if node1 not in Graph:
         Graph[node1] = {}
     (Graph[node1])[node2] = 1
@@ -26,12 +19,6 @@ social = [('Jill','New York'),('Jill','Toronto'), \
 
 for (x,y) in social: make_link(GRAPH, x, y)
 
-####################################################
-####################################################
-
-## Shortest Path
-## Breadth First Search (no Recursion)
-## 'Stackoverflow' solution
 
 def short_path(G, node1, node2):
     """ Return the shortest path from node1 to node2"""
@@ -50,6 +37,3 @@ def short_path(G, node1, node2):
 
         
 print short_path(GRAPH, 'Joan', 'John')
-
-    
-
