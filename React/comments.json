@@ -1,30 +1,27 @@
 [
     {
         "author": "Pete Hunt",
-        "text": "Hey there!"
+        "text": "Hey there!",
+        "id": "100"
     },
     {
         "author": "Paul O’Shannessy",
-        "text": "React is **great**!"
+        "text": "React is **great**!",
+        "id": "101"
     },
     {
         "author": "derek",
-        "text": "alright"
-    },
-    {
-        "author": "derek3",
-        "text": "alright3"
+        "text": "comment",
+        "id": "286"
     },
     {
         "author": "derek2",
-        "text": "**bold** text"
+        "text": "comment2",
+        "id": "308"
     },
     {
-        "author": "derek",
-        "text": "something"
-    },
-    {
-        "author": "yeah!",
-        "text": "something else!"
+        "author": "derek3",
+        "text": "comment3",
+        "id": "456"
     }
 ]
