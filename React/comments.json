@@ -5,14 +5,18 @@
     },
     {
         "author": "Paul O’Shannessy",
-        "text": "React is *great*!"
+        "text": "React is **great**!"
     },
     {
         "author": "derek",
         "text": "alright"
     },
     {
-        "author": "asdfasd",
-        "text": "asdfadsasdfasdfadsfadsf"
+        "author": "derek3",
+        "text": "alright3"
+    },
+    {
+        "author": "derek2",
+        "text": "**bold** text"
     }
 ]
