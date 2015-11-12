@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <title>React Tutorial</title>
     <!-- Not present in the tutorial. Just for basic styling. -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic|Playfair+Display:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://derekmisler.github.io/css/main.css">
     <link rel="stylesheet" href="css/base.css" />
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
@@ -12,11 +15,96 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
   </head>
   <body>
+  <div class="page-content">
+  <div class="wrapper">
+
+   
+   
+   
+   
+   
+   
     <div id="content"></div>
-    <script type="text/babel" src="scripts/example.js"></script>
     <script type="text/babel">
-      // To get started with this tutorial running your own code, simply remove
-      // the script tag loading scripts/example.js and start writing code here.
+      var data = [
+        {author: "Pete Hunt", text: "This is one comment"},
+        {author: "Jordan Walke", text: "This is **another** comment"}
+      ];
+
+      var CommentBox = React.createClass({
+        render: function() {
+          return (
+            <div className="commentBox">
+              <h2>Comments</h2>
+              <CommentList data={this.props.data} />
+              <CommentForm />
+            </div>
+          );
+        }
+      });
+
+      var CommentList = React.createClass({
+        render: function() {
+          var commentNodes = this.props.data.map(function (comment) {
+            return (
+              <Comment author={comment.author}>
+                {comment.text}
+              </Comment>
+            );
+          });
+          return (
+            <div className="commentList">
+              {commentNodes}
+            </div>
+          );
+        }
+      });
+
+      var CommentForm = React.createClass({
+        render: function() {
+          return (
+            <div className="commentForm">
+              Hello, world! I am a CommentForm.
+            </div>
+          );
+        }
+      });
+      
+      var Comment = React.createClass({
+        rawMarkup: function() {
+          var rawMarkup = marked(this.props.children.toString(), {sanitize: true});
+          return { __html: rawMarkup };
+        },
+        render: function() {
+          return (
+            <div className="comment">
+              <h4 className="commentAuthor">
+                {this.props.author}
+              </h4>
+              <blockquote>
+                <span dangerouslySetInnerHTML={this.rawMarkup()} />
+              </blockquote>
+            </div>
+          );
+        }
+      });
+
+      ReactDOM.render(
+        <CommentBox data={data} />,
+        document.getElementById('content')
+      );
     </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+  </div>
+  <footer class="site-footer"></footer>
   </body>
 </html>

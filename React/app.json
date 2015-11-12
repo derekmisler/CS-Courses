@@ -1,10 +1,10 @@
 {
-  "name": "React Tutorial Server",
-  "description": "Code from the React tutorial",
+  "name": "React Comments Tutorial",
+  "description": "Code from Facebook's React tutorial",
   "keywords": [ "react", "reactjs", "tutorial" ],
-  "repository": "https://github.com/reactjs/react-tutorial",
+  "repository": "https://github.com/derekmisler/CS-Courses/tree/master/React",
   "logo": "https://facebook.github.io/react/img/logo.svg",
-  "website": "http://facebook.github.io/react/docs/tutorial.html",
+  "website": "http://derekmisler.github.io/react-comments/",
   "success_url": "/",
   "env" : {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
