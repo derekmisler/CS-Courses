@@ -20,7 +20,7 @@ var Comment = React.createClass({
     return (
       <div className="comment">
         <h2 className="commentAuthor">
-          {this.props.author}
+          {this.props.movie[1]}
         </h2>
         <span dangerouslySetInnerHTML={this.rawMarkup()} />
       </div>
@@ -42,24 +42,6 @@ var CommentBox = React.createClass({
       }.bind(this)
     });
   },
-  handleCommentSubmit: function(comment) {
-    var comments = this.state.data;
-    var newComments = comments.concat([comment]);
-    this.setState({data: newComments});
-    $.ajax({
-      url: this.props.url,
-      dataType: 'json',
-      type: 'POST',
-      data: comment,
-      success: function(data) {
-        this.setState({data: data});
-      }.bind(this),
-      error: function(xhr, status, err) {
-        this.setState({data: comments});
-        console.error(this.props.url, status, err.toString());
-      }.bind(this)
-    });
-  },
   getInitialState: function() {
     return {data: []};
   },
@@ -72,7 +54,6 @@ var CommentBox = React.createClass({
       <div className="commentBox">
         <h1>Comments</h1>
         <CommentList data={this.state.data} />
-        <CommentForm onCommentSubmit={this.handleCommentSubmit} />
       </div>
     );
   }
@@ -98,30 +79,8 @@ var CommentList = React.createClass({
   }
 });
 
-var CommentForm = React.createClass({
-  handleSubmit: function(e) {
-    e.preventDefault();
-    var author = this.refs.author.value.trim();
-    var text = this.refs.text.value.trim();
-    if (!text || !author) {
-      return;
-    }
-    this.props.onCommentSubmit({author: author, text: text});
-    this.refs.author.value = '';
-    this.refs.text.value = '';
-  },
-  render: function() {
-    return (
-      <form className="commentForm" onSubmit={this.handleSubmit}>
-        <input type="text" placeholder="Your name" ref="author" />
-        <input type="text" placeholder="Say something..." ref="text" />
-        <input type="submit" value="Post" />
-      </form>
-    );
-  }
-});
 
 ReactDOM.render(
-  <CommentBox url="/api/comments" pollInterval={2000} />,
+  <CommentBox url="http://api.rottentomatoes.com/api/public/v1.0/lists/movies/upcoming.json?apikey=vymecugmgctsrxbbbmztpnb9" pollInterval={20000} />,
   document.getElementById('content')
 );
